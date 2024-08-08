@@ -57,7 +57,7 @@ function Footer() {
               href="http://ayushpathology.com"
               className="my-3 block text-blue-600"
             >
-              ayushpathology.com
+              ayushpathology.in
             </a>
           </div>
         </div>
