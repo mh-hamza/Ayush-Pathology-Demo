@@ -89,6 +89,7 @@ function App() {
         <Route path="*" element={<Error />} />
         <Route path="/book_appointment" element={<BookAppointment />} />
       </Routes>
+      
     </>
   );
 }
