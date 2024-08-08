@@ -1,13 +1,13 @@
 import React from "react";
-import { GiMicroscope,  } from "react-icons/gi";
-import { FaGithub, FaWhatsapp, FaLinkedin } from 'react-icons/fa';
+import { GiMicroscope } from "react-icons/gi";
+import { FaGithub, FaWhatsapp, FaLinkedin } from "react-icons/fa";
 
 import { Link } from "react-router-dom";
 
 function Footer() {
   return (
     <>
-      <div className="bg-gray-100">
+      <div className="bg-gray-200">
         <div className="max-w-screen-lg px-4 sm:px-6 text-gray-800 grid sm:grid-cols-2 md:grid-cols-4 mx-auto">
           {/* Logo and Branding */}
           <div className="p-5">
@@ -61,29 +61,45 @@ function Footer() {
             </a>
           </div>
         </div>
+        <div className=" text-center text-gray-700">
+          © {new Date().getFullYear()}. Ayush Pathology. All rights reserved.
+        </div>
       </div>
 
       {/* Bottom Section */}
-        <div className="bg-gray-100 pt-2">
-      <div className="flex pb-5 px-3 m-auto pt-5 border-t text-gray-800 text-sm flex-col max-w-screen-lg items-center">
-        {/* Social Media Icons */}
-        <div className="flex mt-2">
-          <a href="/#" className="w-6 mx-1">
-            <FaLinkedin className="fill-current cursor-pointer text-gray-500 hover:text-indigo-600" />
-          </a>
-          <a href="/#" className="w-6 mx-1">
-            <FaGithub className="fill-current cursor-pointer text-gray-500 hover:text-indigo-600" />
-          </a>
-          <a href="/#" className="w-6 mx-1">
-            <FaWhatsapp className="fill-current cursor-pointer text-gray-500 hover:text-indigo-600" />
-          </a>
-          {/* Add more icons as needed, importing and using them similarly */}
-        </div>
-        <div className="my-5">
-          © {new Date().getFullYear()}. Ayush Pathology. All rights reserved. Designed and Developed by Mohammad Hamza.
+      <div className="bg-gray-200 ">
+        <div className="flex pb-5 px-3 m-auto pt-5 border-t text-gray-800 text-sm flex-col max-w-screen-lg items-center">
+          <div>
+          This site was designed and developed by {""}<a href="https://mhhamza.netlify.app" target="_blank" className="text-blue-700">
+               Mohammad Hamza.
+            </a>
+            
+          </div>
+          <div className="flex mt-2">
+            <a
+              href="https://www.linkedin.com/in/mh-hamza444"
+              target="_blank"
+              className="w-6 mx-1"
+            >
+              <FaLinkedin className="fill-current cursor-pointer text-gray-500 hover:text-indigo-600" />
+            </a>
+            <a
+              href="https://github.com/mh-hamza"
+              target="_blank"
+              className="w-6 mx-1"
+            >
+              <FaGithub className="fill-current cursor-pointer text-gray-500 hover:text-indigo-600" />
+            </a>
+            <a
+              href="https://wa.me/916393588539"
+              target="_blank"
+              className="w-6 mx-1"
+            >
+              <FaWhatsapp className="fill-current cursor-pointer text-gray-500 hover:text-indigo-600" />
+            </a>
+          </div>
         </div>
       </div>
-    </div>
     </>
   );
 }
