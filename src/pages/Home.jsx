@@ -60,13 +60,13 @@ function Home() {
                 fontWeight: "800",
                 marginBottom: "20px",
               }}
-              className="text-gray-800 uppercase text-[1.5rem] sm:text-2xl md:text-4xl lg:text-4xl w-[90%]"
+              className="text-gray-800 uppercase text-[1rem] sm:text-[1rem] md:text-4xl lg:text-4xl w-[90%]"
             >
               Your Trusted Partner for Accurate Pathology Results
             </h1>
             <p
               style={{ marginBottom: "20px" }}
-              className="text-gray-600 max-w-[80%] mb-6 leading-6 md:leading-7 text-[14px] md:text-lg"
+              className="text-gray-600 max-w-[80%] mb-6 leading-5 md:leading-7 text-[14px] md:text-lg"
             >
               Trust us to prioritize your well-being and deliver peace of mind
               through our comprehensive pathology services. With a steadfast

@@ -16,7 +16,7 @@ function Navbar() {
             <div className="flex items-center justify-between py-4">
               <div className="flex items-center gap-2">
                 <GiMicroscope className="text-gray-800" size={25} />
-                <h1 className=" text-gray-800 font-bold text-2xl">
+                <h1 className=" text-gray-800 font-bold text-2xl text-nowrap">
                   AYUSH <span className="text-blue-600">PATHOLOGY</span>
                 </h1>
               </div>
@@ -78,7 +78,7 @@ function Navbar() {
                   className="text-white text-sm font-medium border px-4 py-2 rounded-lg hover:text-white hover:border-gray-600 bg-blue-500 hover:bg-blue-600 transition-all duration-100 flex items-center gap-2 "
                 >
                   <RiAdminLine />
-                  Admin Login
+                   Login
                 </Link>
               </div>
 
