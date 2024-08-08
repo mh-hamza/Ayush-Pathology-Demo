@@ -1,0 +1,147 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container_a  {
+  width: 650px;
+  margin: 0 auto;
+  border: 2px solid gray;
+  padding: 0;
+}
+.top{
+  width: 100%;
+  img{
+    width: 100%;
+  }
+}
+.form{
+  height: 770px;
+  .row{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 30px;
+  }
+  .pathology_report_heading{
+    text-align: center;
+    margin: 10px 0;
+    font-size: 20px;
+    color: #333;
+    font-weight: 600;
+  }
+}
+.report_container{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  border-top: 1px solid #ececec;
+}
+.examination_name{
+  text-align: center;
+  margin: 10px 0;
+  color: #333;
+  font-weight: 600;
+  text-decoration: underline;
+  
+}
+.report_container_2{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  border-top: 1px solid #ececec;
+
+}
+
+.first_column , .second_column, .third_column, .fourth_column{
+  margin: 10px;
+  span{
+    margin-right: 10px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+  p{
+    margin: 5px 0;
+  }
+}
+
+
+.bottom{
+  width: 100%;
+  img{
+    width: 100%;
+  }
+}
+.print{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+@media print {
+  .top,
+  .bottom
+  {
+    width: 98%;
+    page-break-inside: avoid;
+    margin: 0;
+  }
+  .print {
+    display: none;
+  }
+
+  .container_a {
+    width: 100%; 
+    margin-left: 7px;
+    margin-right: 7px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border: none;
+    padding: 0;
+  }
+  .row{
+    margin-right: 50px;
+  }
+  .report_container {
+    margin-left: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .report_container_2{
+    margin-left: 50px;
+  
+  }
+  .form {
+    height: 769px;
+    margin-right: 50px;
+  }
+
+
+  .first_column,
+  .second_column,
+  .third_column,
+  .fourth_column {
+    margin: 0;
+  }
+}
+@page 
+{
+    size:  auto;  
+    margin: 0mm;  
+}
+
+html
+{
+    background-color: #FFFFFF; 
+    margin: 0px;  
+}
+
+body
+{
+    /* border: solid 1px blue ; */
+    margin: 5px ;
+}
