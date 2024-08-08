@@ -67,39 +67,28 @@ function Footer() {
       </div>
 
       {/* Bottom Section */}
-      <div className="bg-gray-200 ">
-        <div className="flex pb-5 px-3 m-auto pt-5 border-t text-gray-800 text-sm flex-col max-w-screen-lg items-center">
-          <div>
-          This site was designed and developed by {""}<a href="https://mhhamza.netlify.app" target="_blank" className="text-blue-700">
-               Mohammad Hamza.
-            </a>
-            
-          </div>
-          <div className="flex mt-2">
-            <a
-              href="https://www.linkedin.com/in/mh-hamza444"
-              target="_blank"
-              className="w-6 mx-1"
-            >
-              <FaLinkedin className="fill-current cursor-pointer text-gray-500 hover:text-indigo-600" />
-            </a>
-            <a
-              href="https://github.com/mh-hamza"
-              target="_blank"
-              className="w-6 mx-1"
-            >
-              <FaGithub className="fill-current cursor-pointer text-gray-500 hover:text-indigo-600" />
-            </a>
-            <a
-              href="https://wa.me/916393588539"
-              target="_blank"
-              className="w-6 mx-1"
-            >
-              <FaWhatsapp className="fill-current cursor-pointer text-gray-500 hover:text-indigo-600" />
-            </a>
-          </div>
-        </div>
-      </div>
+      <div className="bg-gray-200">
+  <div className="flex flex-col items-center max-w-screen-lg m-auto py-5 border-t border-gray-300 text-gray-800 text-sm">
+    <p className="mb-2 text-center">
+      This site was designed and developed by  {""}
+      <a href="https://mhhamza.netlify.app" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+        Mohammad Hamza
+      </a>.
+    </p>
+    <div className="flex space-x-4">
+      <a href="https://www.linkedin.com/in/mh-hamza444" target="_blank" rel="noopener noreferrer" className="w-6 mx-1">
+        <FaLinkedin className="fill-current text-gray-500 hover:text-blue-700 transition-colors duration-300" />
+      </a>
+      <a href="https://github.com/mh-hamza" target="_blank" rel="noopener noreferrer" className="w-6 mx-1">
+        <FaGithub className="fill-current text-gray-500 hover:text-black transition-colors duration-300" />
+      </a>
+      <a href="https://wa.me/916393588539" target="_blank" rel="noopener noreferrer" className="w-6 mx-1">
+        <FaWhatsapp className="fill-current text-gray-500 hover:text-green-500 transition-colors duration-300" />
+      </a>
+    </div>
+  </div>
+</div>
+
     </>
   );
 }
