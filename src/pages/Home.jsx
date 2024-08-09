@@ -26,7 +26,6 @@ function Home() {
       >
         <div
           data-aos="fade-up"
-          data-aos-anchor-placement="center-center"
           className="h-[400px] max-w-5xl w-full rounded-lg shadow-lg p-8 flex flex-col lg:flex-row items-center justify-between backdrop-filter backdrop-blur-lg"
           style={{
             backgroundColor: "rgba(255, 255, 255, 0.85)",
@@ -55,14 +54,14 @@ function Home() {
             }}
             className="lg:text-left"
           >
-            <h1
-              style={{
-                fontWeight: "800",
-                marginBottom: "20px",
-              }}
-              className="text-gray-800 uppercase text-[1rem] sm:text-[1rem] md:text-4xl lg:text-4xl w-[90%]"
-            >
-              Your Trusted Partner for Accurate Pathology Results
+            <h1 className="text-gray-800 uppercase w-[90%] mb-4  font-extrabold">
+              <span
+                style={{
+                  fontSize: "clamp(22px, 4vw, 2rem)", // Adjust these values as needed
+                }}
+              >
+                Your Trusted Partner for Accurate Pathology Results
+              </span>
             </h1>
             <p
               style={{ marginBottom: "20px" }}
