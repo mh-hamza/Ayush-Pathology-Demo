@@ -139,7 +139,7 @@ function BookAppoinmentComponent() {
                 </select>
               </div>
               <ReCAPTCHA
-                sitekey="6Leg-SIqAAAAAABae05-fHpKmL1onvTVAV5b0Pkf"
+                sitekey="6Leg-SIqAAAAAKLmX-3HB0ZlgBVZwl6kd9srkNHy"
                 onChange={onChange}
               />
               <div>
