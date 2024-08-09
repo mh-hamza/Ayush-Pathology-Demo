@@ -20,23 +20,23 @@ function Navbar() {
   return (
     <div className="bg-blue-900 text-white">
       {/* Top bar */}
-      <div className="flex justify-between items-center py-2 px-4 text-sm">
-        <div className="flex space-x-4">
-          <a href="#" className="hover:text-gray-300">
+      <div className="flex justify-between items-center py-2 px-4">
+        <div className=" text-center flex justify-center items-center gap-1">
+          <a href="#" className="hover:text-gray-300 text-[10px] sm:text-[15px]">
             Share with on:
           </a>
           <a href="#">
-            <FaFacebookF />
+            <FaFacebookF size={10} />
           </a>
           <a href="#">
-            <FaTwitter />
+            <FaTwitter size={10} />
           </a>
           <a href="#">
-            <FaPinterestP />
+            <FaPinterestP size={10} />
           </a>
         </div>
         <div>
-          <p>Every day: 9:00am - 6:00pm</p>
+          <p className="text-[10px] sm:text-[15px]">Every day: 9:00am - 6:00pm</p>
         </div>
       </div>
 
