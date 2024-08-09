@@ -3,7 +3,7 @@ import {
   FaPhone,
   FaEnvelope,
   FaWhatsapp,
-  FaEnvelopeOpen,
+  FaInstagram,
   FaPinterestP,
   FaSearch,
 } from "react-icons/fa";
@@ -30,11 +30,11 @@ function Navbar() {
           <a href="#" className="text-[10px] sm:text-[15px]">
             <FaWhatsapp />
           </a>
-          <a href="#">
+          <a href="#" className="text-[10px] sm:text-[15px]">
             <MdOutlineEmail  />
           </a>
-          <a href="#">
-            <FaPinterestP  />
+          <a href="#" className="text-[10px] sm:text-[15px]">
+            <FaInstagram  />
           </a>
         </div>
         <div>
