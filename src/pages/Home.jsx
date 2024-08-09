@@ -32,7 +32,7 @@ function Home() {
           }}
         >
           <div
-            className="hidden lg:block lg:w-1/3 lg:ml-8 sm:hidden py-2 h-[400px]"
+            className="hidden lg:block lg:w-1/3 lg:ml-8 sm:hidden  h-[400px]"
             style={{
               alignItems: "center",
               justifyContent: "center",
@@ -54,7 +54,7 @@ function Home() {
             }}
             className="lg:text-left"
           >
-            <h1 className="text-gray-800 uppercase w-[90%] mb-4  font-extrabold">
+            <h1 className="text-gray-800 uppercase w-[90%] mb-4 mt-2 font-extrabold">
               <span
                 style={{
                   fontSize: "clamp(22px, 4vw, 2rem)", // Adjust these values as needed
@@ -65,7 +65,7 @@ function Home() {
             </h1>
             <p
               style={{ marginBottom: "20px" }}
-              className="text-gray-600 max-w-[80%] mb-6 leading-5 md:leading-7 text-[14px] md:text-lg"
+              className="text-gray-600 max-w-[80%] w-[95%] mb-6 leading-5 md:leading-7 text-[14px] md:text-lg"
             >
               Trust us to prioritize your well-being and deliver peace of mind
               through our comprehensive pathology services. With a steadfast
