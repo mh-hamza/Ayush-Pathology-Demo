@@ -26,7 +26,7 @@ function Home() {
       >
         <div
           data-aos="fade-up"
-          className="h-[400px] max-w-5xl w-full rounded-lg shadow-lg p-8 flex flex-col lg:flex-row items-center justify-between backdrop-filter backdrop-blur-lg"
+          className="h-[400px] max-w-5xl w-full rounded-lg shadow-lg p-1 flex flex-col lg:flex-row items-center justify-between backdrop-filter backdrop-blur-lg"
           style={{
             backgroundColor: "rgba(255, 255, 255, 0.85)",
           }}
