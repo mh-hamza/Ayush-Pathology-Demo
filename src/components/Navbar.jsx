@@ -2,11 +2,13 @@ import React, { useState } from "react";
 import {
   FaPhone,
   FaEnvelope,
-  FaFacebookF,
-  FaTwitter,
+  FaWhatsapp,
+  FaEnvelopeOpen,
   FaPinterestP,
   FaSearch,
 } from "react-icons/fa";
+import { MdOutlineEmail } from "react-icons/md";
+
 import { FiMenu } from "react-icons/fi";
 import Microscope from "../../public/microscope_3035512 (2).png";
 import { Link, NavLink } from "react-router-dom";
@@ -25,14 +27,14 @@ function Navbar() {
           <a href="#" className="hover:text-gray-300 text-[10px] sm:text-[15px]">
             Share with on:
           </a>
-          <a href="#">
-            <FaFacebookF size={10} />
+          <a href="#" className="text-[10px] sm:text-[15px]">
+            <FaWhatsapp />
           </a>
           <a href="#">
-            <FaTwitter size={10} />
+            <MdOutlineEmail  />
           </a>
           <a href="#">
-            <FaPinterestP size={10} />
+            <FaPinterestP  />
           </a>
         </div>
         <div>
@@ -45,8 +47,8 @@ function Navbar() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between h-16 items-center">
             <div className="flex items-center gap-2">
-              <img src={Microscope} alt="microscope" className="w-10" />
-              <h1 className=" text-gray-800 font-bold text-2xl text-nowrap">
+              <img src={Microscope} alt="microscope" className="w-6 sm:w-10" />
+              <h1 className=" text-xl text-gray-800 font-bold sm:text-2xl text-nowrap">
                 AYUSH <span className="text-blue-600">PATHOLOGY</span>
               </h1>
             </div>
