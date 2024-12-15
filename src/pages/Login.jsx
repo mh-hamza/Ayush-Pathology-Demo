@@ -7,8 +7,8 @@ import adminImg from "../assets/adminImage.jfif"
 
 const Login = () => {
   const firebase = useFirebase();
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+  const [email, setEmail] = useState("test@gmail.com");
+  const [password, setPassword] = useState("test@123");
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -75,7 +75,7 @@ const Login = () => {
                     type="submit"
                     className="mb-1.5 block w-full text-center text-white bg-blue-700 hover:bg-blue-900 px-2 py-1.5 rounded-md"
                   >
-                    Sign in
+                    Click to Login
                   </button>
                 </div>
               </form>
